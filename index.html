@@ -1,0 +1,245 @@
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Mystat: Расписание</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link href="style.css" rel="stylesheet">
+        <script src='node_modules/animejs/lib/anime.min.js'></script>
+    </head>
+
+    <body>
+        <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+        <div class="preloader">
+            <div class="preloader__image">
+                
+            </div>
+        </div>
+        <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+
+        <table style="background-color: #FFFFFF; padding-bottom: 10px; padding-top: 10px; margin-top: -6px">
+            <tbody>
+                <tr>
+                    <td style="padding-left: 85px"><img src="files/ava.png" height="65px" height="15px" alt="ava"></td>
+                    <td style="font-family: Segoe UI; padding-left: 10px">Очеретяный Павел Александрович</td>
+                    <td style="font-family: Segoe UI; padding-left: 38px">Группа: ПВ811</td>
+                    <td style="font-family: Segoe UI; padding-left: 120px">1083<img style="padding-left: 9px" src="files/Степ-ы.png"></td>
+                    <td style="padding-left: 15px"></td>
+                    <td id="table_block_1" style="font-family: Segoe UI; padding-left: 25px; background-color: #F1F6FA">682<img style="padding-left: 9px" src="files/Кр-лы.png"></td>
+                    <td style="font-family: Segoe UI; padding-left: 25px; background-color: #F1F6FA">401<img style="padding-left: 9px" src="files/Ко-ы.png"></td>
+                    <td style="font-family: Segoe UI; padding-left: 25px; background-color: #F1F6FA">9<img style="padding-left: 9px" src="files/Кол. Б-ов.png"></td>
+                    <td id="table_block_2" style="padding-left: 25px; background-color: #F1F6FA"></td>
+                    <td style="font-family: Segoe UI; padding-left: 790px">RU</td>
+                    <td><img style="padding-left: 31px" src="files/exit.png"></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <nav class="main-menu main-menu_background">
+
+                <ul>
+                    <li>
+                        <a href="#">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td style="padding-left: 25px; width: 100px"><img src="files/}.png" height="15px" height="15px" alt=">"></td>
+                                        <td><span class="nav-text"><img src="files/mystat logo.png" width="-65px" alt="Главная"></span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </a>         
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <img style="padding-left: 20px; padding-bottom: 27px" src="files/icons/6.png" width="25px" height="25px" alt="6" style="width: 26px" class="img">
+                            <span style="padding-left: 20px; font-size: 18px; padding-bottom: 27px" class="nav-text">Главная</span>
+                        </a>         
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <img style="padding-left: 20px; padding-bottom: 27px" src="files/icons/5.png" width="25px" height="25px" alt="6" style="width: 26px" class="img">
+                            <span style="padding-left: 20px; font-size: 18px; padding-bottom: 27px" class="nav-text">Успеваемость</span>
+                        </a>      
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <img style="padding-left: 20px; padding-bottom: 27px" src="files/icons/13.png" width="25px" height="25px" alt="6" style="width: 26px" class="img">
+                            <span style="padding-left: 20px; font-size: 18px; padding-bottom: 27px" class="nav-text">Ваши награды</span>
+                        </a>   
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <img style="padding-left: 20px; padding-bottom: 27px" src="files/icons/14.png" width="25px" height="25px" alt="6" style="width: 26px" class="img">
+                            <span style="padding-left: 20px; font-size: 18px; padding-bottom: 27px" class="nav-text">Домашние задания</span>
+                        </a>  
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <img style="padding-left: 20px; padding-bottom: 27px" src="files/icons/1.png" width="25px" height="25px" alt="6" style="width: 26px" class="img">
+                            <span style="padding-left: 20px; font-size: 18px; padding-bottom: 27px" class="nav-text">Учебные материалы</span>
+                        </a>  
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <img style="padding-left: 20px; padding-bottom: 27px" src="files/icons/7.png" width="25px" height="25px" alt="6" style="width: 26px" class="img">
+                            <span style="padding-left: 20px; font-size: 18px; padding-bottom: 27px" class="nav-text">Новости</span>
+                        </a>  
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <img style="padding-left: 20px; padding-bottom: 27px" src="files/icons/3.png" width="25px" height="25px" alt="6" style="width: 26px" class="img">
+                            <span style="padding-left: 20px; font-size: 18px; padding-bottom: 27px" class="nav-text">Оплата</span>
+                        </a>  
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <img style="padding-left: 20px; padding-bottom: 27px" src="files/icons/2.png" width="25px" height="25px" alt="6" style="width: 26px" class="img">
+                            <span style="padding-left: 20px; font-size: 18px; text-decoration: underline; padding-bottom: 27px; color: white" class="nav-text">Расписание</span>
+                        </a>  
+                    </li>
+                    
+                    <li>
+                        <a href="#">
+                            <img style="padding-left: 20px; padding-bottom: 27px" src="files/icons/8.png" width="25px" height="25px" alt="6" style="width: 26px" class="img">
+                            <span style="padding-left: 20px; font-size: 18px; padding-bottom: 27px" class="nav-text">Отзывы</span>
+                        </a>  
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <img style="padding-left: 20px; padding-bottom: 27px" src="files/icons/10.png" width="25px" height="25px" alt="6" style="width: 26px" class="img">
+                            <span style="padding-left: 20px; font-size: 18px; padding-bottom: 27px" class="nav-text">Профиль</span>
+                        </a>  
+                    </li>
+                    
+                    <li>
+                        <a href="#">
+                            <img style="padding-left: 20px; padding-bottom: 27px" src="files/icons/11.png" width="25px" height="25px" alt="6" style="width: 26px" class="img">
+                            <span style="padding-left: 20px; font-size: 18px; padding-bottom: 27px" class="nav-text">Вопросы и ответы</span>
+                        </a>  
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <img style="padding-left: 20px; padding-bottom: 27px" src="files/icons/9.png" width="25px" height="25px" alt="6" style="width: 26px" class="img">
+                            <span style="padding-left: 20px; font-size: 18px; padding-bottom: 27px" class="nav-text">Контакты</span>
+                        </a>  
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <img style="padding-left: 20px; padding-bottom: 27px" src="files/icons/15.png" width="25px" height="25px" alt="6" style="width: 26px" class="img">
+                            <span style="padding-left: 20px; font-size: 18px; padding-bottom: 27px" class="nav-text">Обращение к администрации</span>
+                        </a>  
+                    </li>
+    
+                <ul class="logout">
+                    <li>
+                        <a href="#">
+                        <img style="padding-left: 20px; padding-bottom: 27px" src="files/icons/12.png" width="27px" height="27px" alt="6" style="width: 26px" class="img">
+                        <span style="padding-left: 20px; font-size: 18px; padding-bottom: 27px" class="nav-text" class="nav-text">Магазин</span>
+                    </a>
+
+                    </li>  
+                </ul>
+
+        </nav>
+
+        <table align="center" style="border-spacing: 100px 30px">
+            <tbody>
+                <tr>
+                    <td style="margin-right: auto; text-transform: uppercase !important">РАСПИСАНИЕ</td>
+                    <td style="padding-left: 1242px"></td>
+                    <td style="margin-left: auto; border-bottom: 1px dashed">Календарь событий</td>
+                </tr>
+            </tbody>
+        </table>
+
+            <div id="div1">
+
+                <table align="center" style="border-spacing: 50px 17px">
+                    <tbody>
+                        <tr>
+                            <td></td>
+                            <td><img style="padding-left: 9px" src="files/{.png"></td>
+                            <td></td>
+                            <td>ИЮЛЬ 2020</td>
+                            <td></td>
+                            <td><img style="padding-left: 9px" src="files/}.png"></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <table align="center" style="border-spacing: 17px 17px">
+                    <tbody>
+                        <tr>
+                            <td id="table1">пн</td>
+                            <td id="table1">вт</td>
+                            <td id="table1">ср</td>
+                            <td id="table1">чт</td>
+                            <td id="table1">пт</td>
+                            <td id="table1">сб</td>
+                            <td id="table1">вс</td>
+                        </tr>
+                        <tr>
+                            <td id="table4"></td>
+                            <td id="table4"></td>
+                            <td id="table2" style="color: #FFFFFF; font-family: Segoe UI">1<img style="padding-left: 10px; padding-bottom: 0px" src="files/icons/2.png" width="20px" height="20px" alt="6" class="img"></td>
+                            <td id="table2" style="color: #FFFFFF">2<img style="padding-left: 10px; padding-bottom: 0px" src="files/icons/2.png" width="20px" height="20px" alt="6" class="img"></td>
+                            <td id="table2" style="color: #FFFFFF">3<img style="padding-left: 10px; padding-bottom: 0px" src="files/icons/2.png" width="20px" height="20px" alt="6" class="img"></td>
+                            <td id="table3" style="color: #000000">4</td>
+                            <td id="table3" style="color: #000000">5</td>
+                        </tr>
+                        <tr>
+                            <td id="table2" style="color: #FFFFFF">6<img style="padding-left: 10px; padding-bottom: 0px" src="files/icons/2.png" width="20px" height="20px" alt="6" class="img"></td>
+                            <td id="table2" style="color: #FFFFFF">7<img style="padding-left: 10px; padding-bottom: 0px" src="files/icons/2.png" width="20px" height="20px" alt="6" class="img"></td>
+                            <td id="table2" style="color: #FFFFFF">8<img style="padding-left: 10px; padding-bottom: 0px" src="files/icons/2.png" width="20px" height="20px" alt="6" class="img"></td>
+                            <td id="table2" style="color: #FFFFFF">9<img style="padding-left: 10px; padding-bottom: 0px" src="files/icons/2.png" width="20px" height="20px" alt="6" class="img"></td>
+                            <td id="table3" style="color: #000000">10</td>
+                            <td id="table3" style="color: #000000">11</td>
+                            <td id="table3" style="color: #000000">12</td>
+                        </tr>
+                        <tr>
+                            <td id="table2" style="color: #FFFFFF">13<img style="padding-left: 10px; padding-bottom: 0px" src="files/icons/2.png" width="20px" height="20px" alt="6" class="img"></td>
+                            <td id="table2" style="color: #FFFFFF">14<img style="padding-left: 10px; padding-bottom: 0px" src="files/icons/2.png" width="20px" height="20px" alt="6" class="img"></td>
+                            <td id="table2" style="color: #FFFFFF">15<img style="padding-left: 10px; padding-bottom: 0px" src="files/icons/2.png" width="20px" height="20px" alt="6" class="img"></td>
+                            <td id="table2" style="color: #FFFFFF">16<img style="padding-left: 10px; padding-bottom: 0px" src="files/icons/2.png" width="20px" height="20px" alt="6" class="img"></td>
+                            <td id="table3" style="color: #000000">17</td>
+                            <td id="table3" style="color: #000000">18</td>
+                            <td id="table3" style="color: #000000">19</td>
+                        </tr>
+                        <tr>
+                            <td id="table2" style="color: #FFFFFF">20<img style="padding-left: 10px; padding-bottom: 0px" src="files/icons/2.png" width="20px" height="20px" alt="6" class="img"></td>
+                            <td id="table2" style="color: #FFFFFF">21<img style="padding-left: 10px; padding-bottom: 0px" src="files/icons/2.png" width="20px" height="20px" alt="6" class="img"></td>
+                            <td id="table2" style="color: #FFFFFF">22<img style="padding-left: 10px; padding-bottom: 0px" src="files/icons/2.png" width="20px" height="20px" alt="6" class="img"></td>
+                            <td id="table2" style="color: #FFFFFF">23<img style="padding-left: 10px; padding-bottom: 0px" src="files/icons/2.png" width="20px" height="20px" alt="6" class="img"></td>
+                            <td id="table3" style="color: #000000">24</td>
+                            <td id="table3" style="color: #000000">25</td>
+                            <td id="table3" style="color: #000000">26</td>
+                        </tr>
+                        <tr>
+                            <td id="table3" style="color: #000000">27</td>
+                            <td id="table3" style="color: #000000">28</td>
+                            <td id="table3" style="color: #000000">29</td>
+                            <td id="table3" style="color: #000000">30</td>
+                            <td id="table3" style="color: #000000">31</td>
+                            <td id="table4"></td>
+                            <td id="table4"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+    </body>
+
+    <script src='script.js'></script>
+</html>
