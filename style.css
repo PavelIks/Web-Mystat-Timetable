@@ -9,10 +9,10 @@
     overflow: hidden;
     background: #fff;
     z-index: 1001;
-  }
+}
 
-  .preloader__image
-  {
+.preloader__image
+{
     position: relative;
     top: 50%;
     width: 64px;
@@ -20,18 +20,18 @@
     margin-left: auto;
     margin-right: auto;
     background: url('preloader.gif') no-repeat 50% 50%;
-  }
+}
 
-  .loaded_hiding .preloader
-  {
+.loaded_hiding .preloader
+{
     transition: 1.3s opacity;
     opacity: 0;
-  }
+}
 
-  .loaded .preloader
-  {
+.loaded .preloader
+{
     display: none;
-  }
+}
 /**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
 
 #table1
